@@ -1,30 +1,18 @@
-const express = require('express');
-const mongoose = require('mongoose');
-const cors = require('cors');
-require('dotenv').config();
-const Cat = require('./models/cat');
+'use strict';
 
-const PORT = process.env.PORT;
+require('dotenv').config();
+const express = require('express');
+const cors = require('cors');
 
 const app = express();
-
 app.use(cors());
 
-mongoose.connect(process.env.DATABASE_URL);
+const PORT = process.env.PORT || 3001;
 
-app.get('/cats', async (request, response) => {
+app.get('/test', (request, response) => {
 
-  const filterQuery = {};
+  response.send('test request received')
 
-  if (request.query.location) {
-    filterQuery.location = request.query.location;
-  }
+})
 
-  const cats = await Cat.find(filterQuery);
-
-  response.send(cats);
-});
-
-app.listen(PORT, () => console.log('Listening on PORT', PORT));
-
-
+app.listen(PORT, () => console.log(`listening on ${PORT}`));

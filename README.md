@@ -45,7 +45,67 @@ WRRC for today
 ## Credit and Collaborations
 
 
-SHEYNA!
+
+
+### Logistical
+
+What hours will you be available to communicate?
+
+* Class hours working during lab time
+  
+* Communicate during lab time, after hour or early comms will be discussed when the need arises.
+
+What platform will you use to communicate (ie. Slack, phone …)?
+
+* Slack
+
+How often will you take breaks?
+
+* 5-10 minute break per hour
+
+What is your plan if you start to fall behind?
+
+* We will do morning work and follow stricter TA 15-minute rule
+
+### Cooperative
+
+Make a list of each person’s strengths.
+
+* Michael: Good at communications
+
+* Ryan: Git skill
+
+* Dwight: Skilled web searcher
+
+How can you best utilize these strengths in the development of your application?
+
+* We will utilize strengths by dividing up work according to our strengths
+
+In what areas do you each want to develop greater strength?
+
+* Michael: Data parsing
+
+* Ryan: Work-flow
+
+* Dwight: Git skill
+
+Knowing that every person in your team needs to understand the code, how do you plan to approach the day-to-day development?
+
+* If we have questions for each other we will answer thoroughly and encourage equal input.
+
+### Conflict Resolution
+
+What will your team do if one person is pulling all the weight while the other person is not contributing?
+
+* Talk about it and re-distribute the work so we all learn with happiness emotion in 'human mind'
+
+What will your team do if one person is taking over the project and not letting the other member contribute?
+
+* Talk about it and re-distribute the work so we all learn with happiness emotion in 'human mind'
+
+How will you approach each other and the challenge of building an application knowing that it is impossible for two people to be at the exact same place in understanding and skill level?
+
+* Help and encourage each other if there's a lack of understanding so all members understand.
 
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 
