@@ -22,7 +22,6 @@ app.get('/books', async (request, response) => {
   }
 
   const books = await Book.find(filterQuery);
-
   response.send(books)
 })
 
