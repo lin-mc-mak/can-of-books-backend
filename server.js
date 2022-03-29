@@ -3,16 +3,29 @@
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
-
+const Book = require('./models/book');
+const mongoose = require('mongoose');
 const app = express();
 app.use(cors());
 
+
+
 const PORT = process.env.PORT || 3001;
 
-app.get('/test', (request, response) => {
+mongoose.connect(process.env.DB_URL);
 
-  response.send('test request received')
+app.get('/books', async (request, response) => {
 
+  const filterQuery = {};
+  if(request.query.title){
+    filterQuery.title = request.query.title;
+  }
+
+  const books = await Book.find(filterQuery);
+
+  response.send(books)
 })
+
+
 
 app.listen(PORT, () => console.log(`listening on ${PORT}`));
