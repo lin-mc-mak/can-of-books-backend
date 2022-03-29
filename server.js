@@ -10,7 +10,7 @@ app.use(cors());
 
 
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3002;
 
 mongoose.connect(process.env.DB_URL);
 
@@ -22,8 +22,8 @@ app.get('/books', async (request, response) => {
   }
 
   const books = await Book.find(filterQuery);
-  response.send(books)
-})
+  response.send(books);
+});
 
 
 
