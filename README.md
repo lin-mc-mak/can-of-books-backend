@@ -23,6 +23,11 @@ Our collective human organization lin-mc-mak shall create a small app to track w
 
 ## Change Log
 
+03-28-2022 18:33 - Application now has a fully-functional express server, with a GET route for the database request.
+Seed function can be used to instantiate data into database.
+
+03-30-2022 11:40 - Front end now has simple login form and header navigation between home page and profile page. Back-end now has connection with mongoDB and can GET seed data from database, will be adding CREATE and DELETE functionality.
+
 <!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
 
 01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
@@ -33,11 +38,9 @@ Name of feature: Book Storage
 
 Estimate of time needed to complete: 3:30
 
-Start time: 15:00
+Worked over multiple days
 
-Finish time: ???
-
-Actual time needed to complete: _____
+Actual time needed to complete: about 8 hours
 
 WRRC for today
 ![WRRC for today](img/wrrc-lab-11.png "Monday Whiteboard")
