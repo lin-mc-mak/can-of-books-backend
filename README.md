@@ -28,13 +28,11 @@ Seed function can be used to instantiate data into database.
 
 03-30-2022 11:40 - Front end now has simple login form and header navigation between home page and profile page. Back-end now has connection with mongoDB and can GET seed data from database, will be adding CREATE and DELETE functionality.
 
-<!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
-
-01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
+04-02-2022 14:15 - Add functionality to front and back end of application to allow user to add books to the database and delete from database.
 
 ## Estimates
 
-Name of feature: Book Storage
+### Name of feature: Book Storage
 
 Estimate of time needed to complete: 3:30
 
@@ -42,13 +40,25 @@ Worked over multiple days
 
 Actual time needed to complete: about 8 hours
 
-WRRC for today
-![WRRC for today](img/wrrc-lab-11.png "Monday Whiteboard")
+---
+
+### Name of feature: Book Add and Delete from DB
+
+Estimate of time needed to complete: 4:00
+
+Worked over multiple days
+
+Actual time needed to complete: about 9 hours
+
+---
+
+How Our Web Request Response Cycle Functions
+
+![WRRC for today](img/wrrc-lab-11.png "Lab Whiteboard")
 
 ## Credit and Collaborations
 
-
-
+Referenced [CodeFellows GitHub resources](https://github.com/codefellows)
 
 ### Logistical
 
